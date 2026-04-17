@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Кейтеринг 18 апреля — интерактив</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Небольшая подпись к таблицам */
+    .soft-shadow { box-shadow: 0 1px 0 rgba(0,0,0,0.04), 0 12px 30px rgba(0,0,0,0.06); }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+  <div class="max-w-5xl mx-auto p-4 sm:p-6">
+    <header class="mb-6">
+      <div class="soft-shadow bg-white rounded-2xl p-5 sm:p-6">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <div>
+            <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight">Кейтеринг — 18 апреля</h1>
+            <p class="text-slate-600 mt-1">Порции и закупка: детский стол → взрослый стол → таблица продуктов с чекбоксами</p>
+          </div>
+          <div class="bg-slate-100 rounded-xl p-3">
+            <p class="text-xs uppercase tracking-wider text-slate-600">Состав</p>
+            <p class="font-bold">10 взрослых + 9 детей</p>
+          </div>
+        </div>
+
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-3">
+          <div class="rounded-xl bg-indigo-50 border border-indigo-100 p-3">
+            <p class="text-xs uppercase tracking-wider text-indigo-700">Детский стол</p>
+            <p class="font-bold text-lg">9 порций (для детей)</p>
+          </div>
+          <div class="rounded-xl bg-emerald-50 border border-emerald-100 p-3 md:col-span-2">
+            <p class="text-xs uppercase tracking-wider text-emerald-700">Взрослый стол</p>
+            <p class="font-bold text-lg">10 порций (для взрослых)</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="space-y-6">
+      <!-- Детский стол -->
+      <section id="kids" class="soft-shadow bg-white rounded-2xl p-5 sm:p-6">
+        <h2 class="text-xl sm:text-2xl font-bold">Детский стол</h2>
+        <div class="mt-3 grid md:grid-cols-2 gap-4">
+          <div class="rounded-xl bg-slate-50 border border-slate-100 p-4">
+            <h3 class="font-semibold">Меню</h3>
+            <ul class="mt-2 space-y-2 text-sm">
+              <li class="flex gap-2">
+                <span class="mt-0.5">•</span>
+                <span><b>Морковные палочки (150 г)</b> — 20 порций</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-0.5">•</span>
+                <span><b>Огурцы палочками (150 г)</b> — 20 порций</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-0.5">•</span>
+                <span><b>Куриные шашлычки</b> — 9 порций</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-0.5">•</span>
+                <span><b>Картофель по-деревенски</b> — 9 порций</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-0.5">•</span>
+                <span><b>Овощные кебабы на гриле</b> — 9 порций</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-0.5">•</span>
+                <span><b>Пицца (для детей)</b> — всего 6 пицц (2 вида)</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="rounded-xl bg-indigo-50 border border-indigo-100 p-4">
+            <h3 class="font-semibold">Количество порций</h3>
+            <div class="mt-3 flex items-center gap-3">
+              <div class="text-4xl font-extrabold text-indigo-700">9</div>
+              <div>
+                <p class="text-sm text-indigo-800">На стол (для 9 детей)</p>
+                <p class="text-xs text-indigo-700 mt-1">Примечание: морковка/огурцы считаются по 150 г (20 порций каждой позиции).</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <div class="text-xs uppercase tracking-wider text-indigo-700">Формы 150 г</div>
+              <p class="mt-1 font-bold">Морковка — 21 шт + Огурцы — 21 шт (итого 42 шт по расчёту)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Взрослый стол -->
+      <section id="adults" class="soft-shadow bg-white rounded-2xl p-5 sm:p-6">
+        <h2 class="text-xl sm:text-2xl font-bold">Взрослый стол</h2>
+        <div class="mt-3 grid md:grid-cols-2 gap-4">
+          <div class="rounded-xl bg-slate-50 border border-slate-100 p-4">
+            <h3 class="font-semibold">Меню</h3>
+            <ul class="mt-2 space-y-2 text-sm">
+              <li class="flex gap-2">
+                <span class="mt-0.5">•</span>
+                <span><b>Жареный лаваш со свежими овощами и зеленью</b> — 10 порций</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-0.5">•</span>
+                <span><b>Салат с ростбифом</b> — 10 порций</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-0.5">•</span>
+                <span><b>Медальоны</b> — 10 порций</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-0.5">•</span>
+                <span><b>Овощи гриль</b> — идут к медальонам (в рамках 10 порций)</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-0.5">•</span>
+                <span><b>Халлуми на гриле с мёдом и чёрным перцем</b> — 10 порций</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="rounded-xl bg-emerald-50 border border-emerald-100 p-4">
+            <h3 class="font-semibold">Количество порций</h3>
+            <div class="mt-3 flex items-center gap-3">
+              <div class="text-4xl font-extrabold text-emerald-700">10</div>
+              <div>
+                <p class="text-sm text-emerald-800">На стол (для 10 взрослых)</p>
+                <p class="text-xs text-emerald-700 mt-1">Подача без тайминга.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Таблица закупки -->
+      <section class="soft-shadow bg-white rounded-2xl p-5 sm:p-6">
+        <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
+          <div>
+            <h2 class="text-xl sm:text-2xl font-bold">Таблица продуктов (закупка)</h2>
+            <p class="text-slate-600 mt-1">Ставь галочки по мере покупки. Количество <b>огурцов</b> и <b>помидоров</b> пересчитывается автоматически по доле из салатной смеси.</p>
+          </div>
+
+          <div class="rounded-xl bg-slate-50 border border-slate-100 p-3 w-full md:w-80">
+            <p class="text-sm font-semibold">Настройка для пересчёта</p>
+            <div class="mt-3">
+              <label class="text-xs uppercase tracking-wider text-slate-600">Салатная смесь (огурцы/помидоры), кг</label>
+              <div class="flex items-center gap-3 mt-2">
+                <div class="flex-1">
+                  <input id="saladMixKg" type="number" min="0" step="0.1" value="1.0" class="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm" />
+                </div>
+                <div class="text-sm text-slate-600">кг</div>
+              </div>
+              <div class="mt-3">
+                <label class="text-xs uppercase tracking-wider text-slate-600">Доля огурцов в смеси</label>
+                <div class="flex items-center gap-3 mt-2">
+                  <input id="cucumberShare" type="number" min="0" max="100" step="1" value="50" class="flex-1 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm" />
+                  <div class="text-sm text-slate-600">%</div>
+                </div>
+              </div>
+              <p class="mt-3 text-xs text-slate-500">
+                По умолчанию: 1.0 кг смеси, 50% огурцы / 50% помидоры.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 overflow-x-auto">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="text-left">
+                <th class="pb-3 pr-2">&nbsp;</th>
+                <th class="pb-3">Продукт</th>
+                <th class="pb-3">Количество</th>
+                <th class="pb-3">Ед.</th>
+                <th class="pb-3">Примечание</th>
+              </tr>
+            </thead>
+            <tbody id="rows" class="divide-y divide-slate-100">
+              <!-- Дальше строки рендерятся JS -->
+            </tbody>
+          </table>
+        </div>
+
+        <div class="mt-4 flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
+          <div class="text-xs text-slate-500">
+            Подсказка: галочки сохраняются в браузере.
+          </div>
+          <button id="resetChecks" class="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-semibold hover:bg-slate-50">
+            Сбросить галочки
+          </button>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+    const STORAGE_KEY = 'catering_checks_18_apr';
+
+    // База количеств (округлено под фасовки из расчёта).
+    // Огурцы/помидоры пересчитываются:  
+    // огурцы = 3.0 (палочки) + 1.0 (лаваш) + saladMixKg * cucumberShare
+    // помидоры = 1.0 (лаваш) + saladMixKg * (100-cucumberShare)
+    const baseItems = [
+      { key: 'carrots150', name: 'Морковь (для палочек 150 г)', qty: 3.0, unit: 'кг', note: '' },
+      { key: 'forms150', name: 'Формы 150 г одноразовые', qty: 50, unit: 'шт', note: 'по расчёту 42 → округление' },
+      // огурцы/помидоры — отдельные строки с dynamic qty
+      { key: 'cucumbers_total', name: 'Огурцы (все блюда сразу)', qty: null, unit: 'кг', note: 'пересчитывается' },
+      { key: 'tomatoes_total', name: 'Помидоры (все блюда сразу)', qty: null, unit: 'кг', note: 'пересчитывается' },
+
+      { key: 'lavash', name: 'Лаваш тонкий', qty: 1, unit: 'пачка', note: 'примерно 5 шт' },
+      { key: 'greens_lavash', name: 'Зелень для лаваша', qty: 0.4, unit: 'кг', note: '' },
+      // остальные из чек-листа, без огурцов/помидоров (чтобы не дублировать)
+      { key: 'onions', name: 'Лук репчатый', qty: 1.2, unit: 'кг', note: 'лаваш/кебабы/гриль (как в расчёте)' },
+      { key: 'sauce_lavash', name: 'Соус для сборки лаваша', qty: 0.5, unit: 'кг', note: 'примерно 1×500 г' },
+
+      { key: 'lettuce_base', name: 'Салатная основа (ромэн/айсберг)', qty: 2.6, unit: 'кг', note: '' },
+      { key: 'roastbeef', name: 'Ростбиф (готовый вес)', qty: 0.7, unit: 'кг', note: '' },
+      { key: 'salad_mix', name: 'Салатная смесь (огурец/помидор/прочее)', qty: 1.0, unit: 'кг', note: 'разделяется для расчёта огурцы/помидоры' },
+      { key: 'red_onion', name: 'Лук красный', qty: 0.25, unit: 'кг', note: '' },
+      { key: 'salad_sauce', name: 'Соус для салата', qty: 0.6, unit: 'кг', note: 'например 1×600 г или 2×300 г' },
+
+      { key: 'medallions_meat', name: 'Мясо для медальонов (чистый вес)', qty: 2.1, unit: 'кг', note: '' },
+      { key: 'halloumi', name: 'Халлуми', qty: 1.5, unit: 'кг', note: '' },
+      { key: 'honey', name: 'Мёд', qty: 0.3, unit: 'кг', note: '' },
+      { key: 'black_pepper', name: 'Чёрный перец', qty: 0.05, unit: 'кг', note: '' },
+      { key: 'zucchini_total', name: 'Кабачок (суммарно для гриля/кебабов)', qty: 0.8, unit: 'кг', note: '' },
+      { key: 'eggplant_total', name: 'Баклажан (суммарно для гриля/кебабов)', qty: 0.7, unit: 'кг', note: '' },
+      { key: 'pepper_total', name: 'Болгарский перец (суммарно для гриля/кебабов)', qty: 0.8, unit: 'кг', note: '' },
+      { key: 'oil', name: 'Растительное масло', qty: 1.0, unit: 'л', note: 'округление под жарку/гриль' },
+
+      { key: 'chicken_shashlik', name: 'Куриное мясо для шашлычков', qty: 1.8, unit: 'кг', note: '' },
+
+      { key: 'water', name: 'Вода обычная', qty: 3.0, unit: 'л', note: '' },
+      { key: 'sparkling_water', name: 'Вода газ', qty: 2.5, unit: 'л', note: '' },
+      { key: 'apple_juice', name: 'Сок яблочный', qty: 3.0, unit: 'л', note: '' },
+      { key: 'wine', name: 'Вино', qty: 2, unit: 'бут (0.75 л)', note: '2 бутылки = 1.5 л' },
+      { key: 'potatoes', name: 'Картофель (ориентир)', qty: 1.5, unit: 'кг', note: 'чистый вес 1.35 → округление' },
+      { key: 'pizza_bases', name: 'Тесто/основы для пиццы', qty: 6, unit: 'шт', note: '' },
+      { key: 'pizza_sauce', name: 'Томатный соус для пиццы', qty: 1.0, unit: 'кг', note: 'например 2×500 г' },
+      { key: 'mozzarella', name: 'Моцарелла', qty: 1.0, unit: 'кг', note: 'округление с 0.7–0.9' },
+      { key: 'pepperoni', name: 'Начинка «пепперони»', qty: 0.7, unit: 'кг', note: '' },
+      { key: 'bacon_style', name: '«Бекон-стайл» (для второй пиццы)', qty: 0.4, unit: 'кг', note: '' },
+
+      { key: 'tea', name: 'Чай (заварка)', qty: 0.25, unit: 'кг', note: 'или эквивалент по фасовке' },
+      { key: 'lemons', name: 'Лимон', qty: 2.0, unit: 'кг', note: 'примерно по штукам' },
+      { key: 'sugar', name: 'Сахар', qty: 1.0, unit: 'кг', note: '' },
+
+      { key: 'spices_misc', name: 'Специи/приправы/соль/перец (прочее)', qty: 1, unit: 'набор', note: 'по факту на кухне' },
+    ];
+
+    function roundTo(n, decimals = 1) {
+      const p = Math.pow(10, decimals);
+      return Math.round(n * p) / p;
+    }
+
+    function getChecks() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      } catch (e) {
+        return {};
+      }
+    }
+
+    function setChecks(obj) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(obj));
+    }
+
+    function fmtQty(q) {
+      if (q === null || q === undefined) return '—';
+      // для кг — показываем 1 знак после запятой если дробное
+      if (typeof q === 'number') {
+        const isInt = Math.abs(q - Math.round(q)) < 1e-9;
+        if (isInt) return String(Math.round(q));
+        return String(roundTo(q, 1));
+      }
+      return String(q);
+    }
+
+    function computeTotals() {
+      const saladMixKg = Number(document.getElementById('saladMixKg').value || 0);
+      const cucumberShare = Number(document.getElementById('cucumberShare').value || 0);
+      const tomatoShare = 100 - cucumberShare;
+
+      const cucumbers = 3.0 + 1.0 + saladMixKg * (cucumberShare/100);
+      const tomatoes = 1.0 + saladMixKg * (tomatoShare/100);
+
+      // округление под закупку: до 0.1 кг
+      return {
+        cucumbers: roundTo(cucumbers, 1),
+        tomatoes: roundTo(tomatoes, 1),
+      };
+    }
+
+    function buildRows() {
+      const { cucumbers, tomatoes } = computeTotals();
+      const tbody = document.getElementById('rows');
+      tbody.innerHTML = '';
+
+      const checks = getChecks();
+
+      // Сначала добавим строки с чекбоксами
+      const items = baseItems.map(it => {
+        if (it.key === 'cucumbers_total') return { ...it, qty: cucumbers };
+        if (it.key === 'tomatoes_total') return { ...it, qty: tomatoes };
+        return it;
+      });
+
+      for (const it of items) {
+        const id = 'chk_' + it.key;
+        const checked = Boolean(checks[it.key]);
+
+        const tr = document.createElement('tr');
+        tr.className = 'align-top';
+        tr.innerHTML = `
+          <td class="py-2 pr-2">
+            <input id="${id}" type="checkbox" ${checked ? 'checked' : ''} class="h-5 w-5 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500" />
+          </td>
+          <td class="py-2 font-medium">${it.name}</td>
+          <td class="py-2">${fmtQty(it.qty)}</td>
+          <td class="py-2 text-slate-600">${it.unit}</td>
+          <td class="py-2 text-slate-500">${it.note || ''}</td>
+        `;
+        tbody.appendChild(tr);
+
+        const cb = tr.querySelector('input');
+        cb.addEventListener('change', () => {
+          const curr = getChecks();
+          curr[it.key] = cb.checked;
+          setChecks(curr);
+        });
+      }
+    }
+
+    // Запускаем
+    document.getElementById('resetChecks').addEventListener('click', () => {
+      localStorage.removeItem(STORAGE_KEY);
+      buildRows();
+    });
+
+    document.getElementById('saladMixKg').addEventListener('input', buildRows);
+    document.getElementById('cucumberShare').addEventListener('input', buildRows);
+
+    buildRows();
+  </script>
+<script>window.parent.postMessage({ action: "ready" }, "*"); 
+ 
+window.console = new Proxy(console, {
+  get(target, prop) {
+    if (['log', 'warn', 'error'].includes(prop)) {
+      return new Proxy(target[prop], {
+        apply(fn, thisArg, args) {
+          fn.apply(thisArg, args);
+          window.parent.postMessage({ action: 'console', 
+            type: prop, 
+            args: args.map((arg) => {
+              try {
+                return JSON.stringify(arg).replace(/^["']|["']$/g, '');
+              } catch (e) {
+                return arg;
+              }
+            }) 
+          }, '*');
+        }
+      });
+    }
+    return target[prop];
+  }
+});
+</script></body>
+</html>
